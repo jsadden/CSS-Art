@@ -2,19 +2,19 @@ Gallery of art pieces made entirely of HTML and CSS
 
 Darth Vader:
 
-![](Images/darth.png)
+![](Images/darth.PNG)
 
 Freddie Mercury:
-<img src='Images/freddie.png'>
+![](Images/freddie.PNG)
 
 A Galaxy:
-<img src='Images/galaxy.png'>
+![](Images/galaxy.PNG)
 
 Lt. Aldo Raine:
-<img src='Images/gorlami.png'>
+![](Images/gorlami.PNG)
 
 KBIII:
-<img src='Images/kbiii.png'>
+![](Images/kbiii.PNG)
 
 A Nebula:
-<img src='Images/nebula.png'>
+![](Images/nebula.PNG)
