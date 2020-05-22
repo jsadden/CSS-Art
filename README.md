@@ -1,8 +1,8 @@
 Gallery of art pieces made entirely of HTML and CSS
 
 Darth Vader:
-![](Images/darth.png)
-<img src='Images/darth.png'>
+![](./Images/darth.png)
+<img src='./Images/darth.png'>
 
 Freddie Mercury:
 <img src='Images/freddie.png'>
