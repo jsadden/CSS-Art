@@ -1,0 +1,118 @@
+#background {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    background-color: #fd0
+}
+
+#bill {
+    text-align: center;
+    font-size: 350px;
+    position: relative;
+    top: 125px;
+    font-family: fantasy;
+    color: #ffe000;
+}
+
+.red {
+    background-color: #f00;
+}
+
+#blood1 {
+    position: absolute;
+    height: 60px;
+    width: 20px;
+    top: 220px;
+    left: 235px;
+    border-bottom: solid #f00 200px;
+    border-right: solid #700 5px;
+    transform: rotate(10deg);
+    border-bottom-right-radius: 600%;
+}
+#blood2 {
+    position: absolute;
+    height: 60px;
+    width: 20px;
+    top: 190px;
+    left: 258px;
+    transform: rotate(10deg);
+    border-radius: 50%;
+    border-right: solid #700 5px;
+}
+#blood3 {
+    position: absolute;
+    height: 60px;
+    width: 20px;
+    top: 200px;
+    left: 285px;
+    border-bottom: solid #f00 200px;
+    border-right: solid #700 5px;
+    transform: rotate(10deg);
+    border-bottom-right-radius: 600%;
+}
+#blood4 {
+    position: absolute;
+    height: 60px;
+    width: 20px;
+    top: 175px;
+    left: 307px;
+    transform: rotate(10deg);
+    border-radius: 50%;
+    border-right: solid #700 5px;
+}
+
+#blood5 {
+    position: absolute;
+    height: 60px;
+    width: 20px;
+    top: 170px;
+    left: 335px;
+    border-bottom: solid #f00 200px;
+    border-right: solid #700 5px;
+    transform: rotate(10deg);
+    border-bottom-right-radius: 600%;
+}
+#blood6 {
+    position: absolute;
+    height: 60px;
+    width: 20px;
+    top: 145px;
+    left: 357px;
+    transform: rotate(10deg);
+    border-radius: 50%;
+    border-right: solid #700 5px;
+}
+
+
+#glimmer1 {
+    position: absolute;
+    height: 12px;
+    width: 3px;
+    top: 210px;
+    left: 261px;
+    background-color: #fff;
+    transform: rotate(5deg);
+    border-radius: 50%;
+}
+#glimmer2 {
+    position: absolute;
+    height: 12px;
+    width: 3px;
+    top: 196px;
+    left: 310px;
+    background-color: #fff;
+    transform: rotate(5deg);
+    border-radius: 50%;
+}
+#glimmer3 {
+    position: absolute;
+    height: 12px;
+    width: 3px;
+    top: 168px;
+    left: 360px;
+    background-color: #fff;
+    transform: rotate(5deg);
+    border-radius: 50%;
+}
+
+

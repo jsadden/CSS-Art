@@ -1,0 +1,348 @@
+#backdrop {
+    width: 500px;
+    height: 500px;
+    background-color: gainsboro;
+    position: relative;
+    text-align: center;
+}
+
+#head {
+    width: 150px;
+    height: 150px;
+    background-color: #000;
+    position: absolute;
+    left: 175px;
+    top: 200px;
+    border-radius: 75px;
+}
+
+#skull {
+    width: 130px;
+    height: 140px;
+    position: absolute;
+    left: 8px;
+    top: 30px;
+    background-color: #222;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;  
+}
+
+#skull2 {
+    position: absolute;
+    left: 8px;
+    top: 80px;
+    border-left: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #000;
+}
+
+#skull3 {
+    position: absolute;
+    left: 89px;
+    top: 80px;
+    border-right: 0px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid #000;
+}
+
+#lefteye {
+    width: 50px;
+    height: 40px;
+    background-color: #111;
+    position: absolute;
+    left: 15px;
+    top: 40px;
+    border-radius: 25px;
+    transform: rotateX(30deg);
+    border: solid 2px #555;
+}
+
+#glimmer1 {
+    width: 5px;
+    height: 9px;
+    background-color: #eee;
+    position: absolute;
+    left: 25px;
+    top: 55px;
+    border-radius: 50%;
+}
+#glimmer2 {
+    width: 5px;
+    height: 7px;
+    background-color: #eee;
+    position: absolute;
+    left: 25px;
+    top: 68px;
+    border-radius: 50%;
+    transform: rotate(-45deg)
+}
+
+#glimmer3 {
+    width: 5px;
+    height: 9px;
+    background-color: #eee;
+    position: absolute;
+    left: 90px;
+    top: 55px;
+    border-radius: 50%;
+}
+#glimmer4 {
+    width: 5px;
+    height: 7px;
+    background-color: #eee;
+    position: absolute;
+    left: 90px;
+    top: 68px;
+    border-radius: 50%;
+    transform: rotate(-45deg)
+}
+
+#glimmer5 {
+    width: 5px;
+    height: 15px;
+    background-color: #eee;
+    position: absolute;
+    left: 120px;
+    top: 62px;
+    border-radius: 50%;
+    transform: rotate(45deg)
+}
+#glimmer6 {
+    width: 5px;
+    height: 15px;
+    background-color: #eee;
+    position: absolute;
+    left: 55px;
+    top: 62px;
+    border-radius: 50%;
+    transform: rotate(45deg)
+}
+
+#righteye {
+    width: 50px;
+    height: 40px;
+    background-color: #111;
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    border-radius: 25px;
+    transform: rotateX(30deg);
+    border: solid 2px #555;
+}
+
+#mouth1 {
+    position: absolute;
+    left: 45px;
+    top: 70px;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid #444;
+}
+
+#mesh1{
+    position: absolute;
+    left: -25px;
+    top: 3px;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 45px solid #222;
+}
+#mesh2{
+    position: absolute;
+    left: -3px;
+    top: 3px;
+    width: 5px;
+    height:42px;
+    background-color: #111
+}
+#mesh3{
+    position: absolute;
+    left: -16px;
+    top: 33px;
+    width: 5px;
+    height:15px;
+    background-color: #111
+}
+#mesh4{
+    position: absolute;
+    left: 11px;
+    top: 33px;
+    width: 5px;
+    height:15px;
+    background-color: #111
+}
+
+#mouth2 {
+    position: absolute;
+    left: 45px;
+    top: 120px;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 40px solid #111;
+}
+
+#cheek {
+    position: absolute;
+    left: 15px;
+    top: 87px;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 70px solid #555;
+}
+
+.mouthcirc {
+    background-color: #ccc;
+    width: 5px;
+    height: 5px;
+    border: solid 2px #555;
+}
+
+#circ1 {
+    position: absolute;
+    left: 68px;
+    top: 65px;
+    border-radius: 50%;
+    width: 10px;
+    height: 13px;
+}
+
+#circ2 {
+    position: absolute;
+    left: 40px;
+    top: 117px;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
+#circ3 {
+    position: absolute;
+    left: 101px;
+    top: 117px;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
+
+.headgear{
+    width: 200px;
+    height: 250px;
+    background-color: transparent;
+    position: absolute;
+    left: 150px;
+    top: 160px;
+}
+
+#helm1 {
+    width:85px;
+    height:75px;
+    background-color: #333;
+    position: absolute;
+    left: 12px;
+    top:3px;
+    border-top-left-radius: 60px;
+}
+
+#helm2 {
+    width:85px;
+    height:75px;
+    background-color: #333;
+    position: absolute;
+    left: 100px;
+    top:3px;
+    border-top-right-radius: 60px;
+}
+
+#helm3 {
+    width:8px;
+    height:40px;
+    background-color: #444;
+    position: absolute;
+    left: 96px;
+    top:0px;
+}
+
+#helm4 {
+    width:8px;
+    height:78px;
+    background-color: #333;
+    position: absolute;
+    left: 95px;
+    top:1px;
+    border: solid 1px #222;
+}
+
+#helm5{
+    width: 10px;
+    height: 175px;
+    background-color: #333;
+    position: absolute;
+    left: 5px;
+    top: 50px;
+    transform: rotate(7deg);
+    border-bottom-right-radius: 100%;
+}
+
+#helm6{
+    width: 10px;
+    height: 175px;
+    background-color: #333;
+    position: absolute;
+    left: 182px;
+    top: 50px;
+    transform: rotate(-7deg);
+    border-bottom-left-radius: 100%;
+}
+
+#brow {
+    width:170px;
+    height:12px;
+    background-color: #444;
+    position: absolute;
+    left: 13px;
+    top: 62px;
+    border: solid 1px #222;
+    
+}
+
+#helmetback {
+    height: 275px;
+    width: 210px;
+    left: 144px;
+    background-color: transparent;
+}
+
+#hback1 {
+    height: 150px;
+    width: 170px;
+    position: absolute;
+    background-color: #000;
+    top: 77px;
+    left: 20px;
+}
+
+#hback2 {
+    position: absolute;
+    top: 77px;
+    left: 180px;
+    border-right: 28px solid transparent;
+    border-bottom: 150px solid #000;
+    border-bottom-right-radius: 5px;
+}
+#hback3 {
+    position: absolute;
+    top: 77px;
+    left: 0px;
+    border-left: 20px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 150px solid #000;
+    border-bottom-left-radius: 5px;
+}
+
